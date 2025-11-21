@@ -1,0 +1,641 @@
+.button{
+      background-color: rgb(224, 231, 255); /* Green */
+      border: none;
+      color: rgb(67, 56, 202);
+      padding: px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 10px 2px;
+      cursor: pointer;
+      border-radius: 25px;
+      background-color:aliceblue(224, 231, 255);
+border-bottom-color:rgb(229, 231, 235);
+border-bottom-left-radius:9999px;
+border-bottom-right-radius:9999px;
+border-bottom-style:solid;
+border-bottom-width:0px;
+border-left-color:rgb(229, 231, 235);
+border-left-style:solid;
+border-left-width:0px;
+border-right-color:rgb(229, 231, 235);
+border-right-style:solid;
+border-right-width:0px;
+border-top-color:rgb(229, 231, 235);
+border-top-left-radius:9999px;
+border-top-right-radius:9999px;
+border-top-style:solid;
+border-top-width:0px;
+box-sizing:border-box;
+color:rgb(67, 56, 202);
+display:inline-block;
+font-family:Inter, sans-serif;
+font-feature-settings:normal;
+font-size:14px;
+font-variation-settings:normal;
+font-weight:600;
+height:28px;
+line-height:20px;
+margin-bottom:24px;
+margin-left:400px;
+margin-right:400px;
+padding-bottom:4px;
+padding-left:16px;
+padding-right:16px;
+padding-top:4px;
+tab-size:4;
+text-align:center;
+text-size-adjust:100%;
+unicode-bidi:isolate;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+margin-left: 430px;
+}
+
+
+.headline{
+border-left-width:0px;
+border-right-color:rgb(229, 231, 235);
+border-right-style:solid;
+border-right-width:0px;
+border-top-color:rgb(229, 231, 235);
+border-top-style:solid;
+border-top-width:0px;
+box-sizing:border-box;
+color:rgb(15, 23, 42);
+display:block;
+font-family:Inter, sans-serif;
+font-feature-settings:normal;
+font-size:35px;
+font-variation-settings:normal;
+font-weight:700;
+height:36px;
+line-height:36px;
+margin-block-end:20px;
+margin-block-start:0px;
+margin-bottom:0px;
+margin-inline-end:10px;
+margin-inline-start:10px;
+margin-left:200px;
+margin-right:200px;
+margin-top:0px;
+tab-size:4;
+
+text-size-adjust:100%; 
+unicode-bidi:isolate;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+padding-top: 100px;
+padding-bottom: 40px;
+
+}  
+.underline{
+border-left-width:0px;
+border-right-color:rgb(229, 231, 235);
+border-right-style:outset;
+border-right-width:0px;
+border-top-color:rgb(229, 231, 235);
+border-top-style:solid;
+border-top-width:0px;
+box-sizing:border-box;
+color:grey;
+display:block;
+font-family:Inter, sans-serif;
+font-feature-settings:normal;
+font-size:15px;
+font-variation-settings:normal;
+font-weight:500px;
+height:36px;
+line-height:36px;
+margin-block-end:20px;
+margin-block-start:0px;
+margin-bottom:0px;
+margin-inline-end:10px;
+margin-inline-start:10px;
+margin-left:200px;
+margin-right:500px;
+margin-top:0px;
+tab-size:4;
+
+
+text-size-adjust:50%; 
+unicode-bidi:isolate;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+padding-bottom: 70px;
+
+
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+
+#hire_ur_batch{
+    color: black;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 4px;
+    text-align: center;
+
+}
+
+#get_stuff_done{ 
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-weight: 700;
+}
+
+#the_safe_campus{
+    color: grey;
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#find_gigs{
+    background-color: rgb(55, 55, 231);
+    border: black, solid;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-family:Segoe UI ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+#hire_someone{
+    background-color: white;
+    border: silver,solid;
+    width: 175px;
+    height: 50px;
+    color: blue;
+    font-family:Segoe UI ;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left : 20px;
+    font-weight: 600;
+}
+
+#buttons{
+    text-align: center;
+    padding-top: 35px;
+}
+
+#find_gigs:hover{
+    cursor: pointer;
+    background-color: rgba(55, 55, 231,0.8);
+    border: none;
+}
+
+#find_gigs:active{
+    opacity: 0.8;
+}
+
+#hire_someone:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border: rgba(0, 0, 255,1) ;
+    cursor: pointer;
+}
+
+/* #hire_someone:active{
+    opacity: 0.8;
+} */
+
+#popular_categories{
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+#categories{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 50px;
+    /* width: 200px;
+    height: 200px;
+    background-color: pink; */
+
+
+}
+
+.Tutoring, .Moving, .Design, .Coding, .Photo{
+    /* padding-top: 500px; */
+    width: 150px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* .Tutoring:hover{
+    background-color: rgba(55, 55, 231,0.8) ;
+    color: white;
+    border-radius: 10px;
+    border: rgb(4, 147, 147) solid;
+}
+
+.Moving:hover{
+    background-color: rgb(9, 206, 206) ;
+    color: white;
+    border-radius: 10px;
+    border: rgb(4, 147, 147) solid;
+}
+
+.Design:hover{
+    background-color: rgb(9, 206, 206) ;
+    color: white;
+    border-radius: 10px;
+    border: rgb(4, 147, 147) solid;
+}
+
+/* .Coding:hover{
+    background-color: rgb(9, 206, 206) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(5, 155, 155) solid;
+} */
+
+.Coding:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(0, 0, 255) solid;
+ }
+
+.Photo:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(0, 0, 255) solid;
+ } 
+
+.Tutoring:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(0, 0, 255) solid;
+}
+
+.Moving:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(0, 0, 255) solid;
+}
+
+.Design:hover{
+    background-color: rgba(0, 0, 255,0.5) ;
+    color: white;
+    border-radius: 10px;
+    border:  rgb(0, 0, 255) solid;
+}
+
+.Coding:active{
+    opacity: 0.9;
+}
+
+#latest_opportunities{
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+#earn_pocket_money{
+    font-family: Segoe UI;
+    font-size: 17px;
+    color: grey;
+    padding-top: 5px;
+}
+
+/* --- Grid Layout for the 6 Boxes --- */
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Card Container --- */
+.job-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Colored Side Borders --- */
+.job-card.tutoring { border-left: 5px solid #22c55e; }
+.job-card.moving   { border-left: 5px solid #3b82f6; }
+.job-card.design   { border-left: 5px solid #a855f7; }
+.job-card.ride     { border-left: 5px solid #f97316; }
+.job-card.coding   { border-left: 5px solid #6366f1; }
+.job-card.event    { border-left: 5px solid #ef4444; }
+
+/* --- Header (Tag + Time) --- */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.time {
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
+
+/* Tag Colors */
+.tag.green  { background: #dcfce7; color: #15803d; }
+.tag.blue   { background: #dbeafe; color: #1e40af; }
+.tag.purple { background: #f3e8ff; color: #6b21a8; }
+.tag.orange { background: #ffedd5; color: #9a3412; }
+.tag.indigo { background: #e0e7ff; color: #3730a3; }
+.tag.red    { background: #fee2e2; color: #991b1b; }
+
+/* --- Main Content --- */
+.job-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 8px 0;
+}
+
+.job-desc {
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2; */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* --- Footer (Avatar + Price) --- */
+.card-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid #f1f5f9;
+    margin-bottom: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: bold; 
+}
+
+/* Avatar Colors */
+.avatar.indigo { background: #e0e7ff; color: #3730a3; }
+.avatar.red    { background: #fee2e2; color: #991b1b; }
+.avatar.orange { background: #ffedd5; color: #9a3412; }
+.avatar.green  { background: #dcfce7; color: #166534; }
+.avatar.blue   { background: #dbeafe; color: #1e40af; }
+
+.user-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #334155;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* --- Buttons --- */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+    background: white;
+    border: 1px solid rgb(0, 0, 255) ;
+    color: rgb(0, 0, 255);
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 255,0.7) ;
+    color: white;
+    border: none;
+}
+
+#top_part{
+    display: flex;
+    ;
+}
+
+#bitgigs{
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+}
+
+#top_left{
+    display: flex;
+    gap: 2px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+#post_a_job button{
+
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(0, 0, 255);
+    border-radius: 25px;
+    height: 50px;
+    width: 99px;
+    color: white;
+    margin-right: 20px;
+
+
+}
+
+#post_a_job button:hover{
+    background-color: rgba(0, 0, 255,0.7) ;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 45px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+#me button{
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 120%;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    height: 40px;
+    width: 40px;
+    color: navy;
+    font-family: 'segoe ui symbol';
+}
+
+#me button:hover{
+    background-color: rgba(0, 0, 255,0.7) ;
+    color: white;
+    border: none;
+    width: 55px;
+    height: 55px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}   
+
+#find_works button{
+    background-color: white;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    width: 99px;
+    margin-right: 20px;
+
+}
+
+#find_works button:hover{
+    color: rgb(11, 134, 208);
+}
+
+#how_it_works button{
+    background-color: white;
+    border: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+#how_it_works button:hover{
+    color: rgb(11, 133, 208);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #bold_numbers{
+    display: flex;
+}
+
+#t2000+{
+
+
+    justify-content: space-around;
+}
+
+#rs_300{
+
+
+    justify-content:space-around;
+}
+
+#one100+{
+
+
+    justify-content:space-around;
+}
+
+#h24h{
+
+    justify-content:space-around;
+} */
